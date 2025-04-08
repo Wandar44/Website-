@@ -1,6 +1,0 @@
-title: "Your Name - Resume"
-description: "Professional resume website for interviews and networking"
-baseurl: "" # leave blank if publishing at the root
-url: "https://yourusername.github.io" # update with your GitHub Pages URL
-theme: minima
-# You can override the default minima theme's styles with your own CSS
