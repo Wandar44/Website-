@@ -1,29 +1,146 @@
----
-layout: default
-title: "Resume"
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #fff;
+      color: #111;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header, section, footer {
+      margin-bottom: 60px;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: 2px solid #111;
+      text-decoration: none;
+      color: #111;
+      font-weight: 700;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      background: #111;
+      color: #fff;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ddd;
+      display: inline-block;
+    }
+    .section-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    ul.skills {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+      padding: 0;
+    }
+    .project {
+      margin-bottom: 30px;
+    }
+    .project a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>[Your Name]</h1>
+    <p>[Your Tagline / Profession]</p>
+    <a href="resume/resume.pdf" class="btn" download>Download Resume</a>
+  </header>
 
-# Your Name
-**Software Engineer**
+  <section id="about">
+    <div class="section-content">
+      <h2>About Me</h2>
+      <p>[Brief introduction about yourself goes here. Keep it 2-4 lines.]</p>
+    </div>
+  </section>
 
-*Phone:* (123) 456-7890  
-*Email:* [your.email@gmail.com](mailto:your.email@gmail.com)  
-*LinkedIn:* [Your LinkedIn](https://www.linkedin.com/in/yourlinkedin)
+  <section id="skills">
+    <div class="section-content">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Git</li>
+        <li>HTML/CSS</li>
+        <li>React</li>
+        <li>[Add more]</li>
+      </ul>
+    </div>
+  </section>
 
-## Education
-**University Name**  
-*Degree, Field of Study*  
-Year - Year
+  <section id="projects">
+    <div class="section-content">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>[College Project Title]</h3>
+        <p>[Short description of what the project does, your role, and any results.]</p>
+        <a href="https://github.com/yourusername/yourproject" target="_blank">GitHub Repo</a>
+      </div>
+      <div class="project">
+        <h3>[Other Project Title]</h3>
+        <p>[Short description]</p>
+        <a href="https://github.com/yourusername/otherproject" target="_blank">GitHub Repo</a>
+      </div>
+    </div>
+  </section>
 
-## Skills
-- Programming Languages: Python, JavaScript, C++
-- Web Technologies: HTML, CSS, Jekyll, GitHub Pages
-- Tools: Git, Docker, VS Code
+  <section id="experience">
+    <div class="section-content">
+      <h2>Experience & Education</h2>
+      <p>[Leave placeholder here for work/education timeline]</p>
+    </div>
+  </section>
 
-## Experience
-**Company Name** – Job Title  
-*Location | Month Year - Month Year*  
-- Description of responsibilities and achievements.
-- Brief bullet points of major accomplishments.
+  <section id="contact">
+    <div class="section-content">
+      <h2>Contact</h2>
+      <p>Email: [your.email@example.com]</p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></p>
+    </div>
+  </section>
 
-<!-- Add additional sections as needed -->
+  <footer>
+    <p>&copy; [Year] [Your Name]. All rights reserved.</p>
+  </footer>
+</body>
+</html>
